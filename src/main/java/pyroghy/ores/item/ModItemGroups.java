@@ -1,0 +1,27 @@
+package pyroghy.ores.item;
+
+import pyroghy.ores.BadOres;
+import pyroghy.ores.block.ModBlocks;
+
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
+import net.minecraft.text.Text;
+import net.minecraft.util.Identifier;
+
+public class ModItemGroups {
+    public static final ItemGroup BAD_ORES_GROUP = Registry.register(Registries.ITEM_GROUP,
+        Identifier.of(BadOres.MOD_ID, "ores"),
+        FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.ENDER_ORE))
+            .displayName(Text.translatable("itemgroup.ores.bad_ores"))
+            .entries((displayContext, entries) -> {
+                entries.add(ModBlocks.ENDER_ORE);
+                entries.add(ModBlocks.DEEPSLATE_ENDER_ORE);
+            }).build());
+
+    public static void registerItemGroups() {
+        BadOres.LOGGER.info("Registering Item Groups for " + BadOres.MOD_ID);
+    }
+}
