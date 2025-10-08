@@ -1,3 +1,4 @@
-// 1.21.1	2025-09-24T20:44:34.777905	Bad Ores/Tags for minecraft:block
+// 1.21.1	2025-10-08T18:33:25.8344111	Bad Ores/Tags for minecraft:block
 07b02ebadbf0eddb651792a0db17f48747e8fba3 data\minecraft\tags\block\needs_iron_tool.json
-07b02ebadbf0eddb651792a0db17f48747e8fba3 data\minecraft\tags\block\mineable\pickaxe.json
+b53133cc9f5b61bf09dbbf86bdf370283acd9848 data\minecraft\tags\block\mineable\pickaxe.json
+35f68e2ae05d6fe024442d9603d97980ea1d8b28 data\minecraft\tags\block\needs_stone_tool.json

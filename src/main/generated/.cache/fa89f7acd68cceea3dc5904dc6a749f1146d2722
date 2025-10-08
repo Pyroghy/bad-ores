@@ -1,3 +1,5 @@
-// 1.21.1	2025-09-24T20:44:34.7794175	Bad Ores/Block Loot Tables
+// 1.21.1	2025-10-08T18:33:25.836005	Bad Ores/Block Loot Tables
+27579a1dd4cae19ca0c425076efeff3393634f8a data\ores\loot_table\blocks\deepslate_meat_ore.json
+994c42124b2f821edb2b6f027559c7d1306f109a data\ores\loot_table\blocks\meat_ore.json
 05dc5f1c8902a0d33e67755f98f2cb744898c40a data\ores\loot_table\blocks\deepslate_ender_ore.json
 05dc5f1c8902a0d33e67755f98f2cb744898c40a data\ores\loot_table\blocks\ender_ore.json

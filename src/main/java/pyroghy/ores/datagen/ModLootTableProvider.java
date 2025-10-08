@@ -23,6 +23,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public void generate() {
         addEnderPearlDrop(ModBlocks.ENDER_ORE);
         addEnderPearlDrop(ModBlocks.DEEPSLATE_ENDER_ORE);
+        
+        addDrop(ModBlocks.MEAT_ORE);
+        addDrop(ModBlocks.DEEPSLATE_MEAT_ORE);
     }
 
     private void addEnderPearlDrop(net.minecraft.block.Block block) {

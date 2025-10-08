@@ -2,5 +2,7 @@
     "itemgroup.ores.bad_ores": "Bad Ores",
 
     "block.ores.ender_ore": "Ender Ore",
-    "block.ores.deepslate_ender_ore": "Deepslate Ender Ore"
+    "block.ores.deepslate_ender_ore": "Deepslate Ender Ore",
+    "block.ores.meat_ore": "Meat Ore",
+    "block.ores.deepslate_meat_ore": "Deepslate Meat Ore"
 }

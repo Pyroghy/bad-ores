@@ -19,6 +19,8 @@ public class ModItemGroups {
             .entries((displayContext, entries) -> {
                 entries.add(ModBlocks.ENDER_ORE);
                 entries.add(ModBlocks.DEEPSLATE_ENDER_ORE);
+                entries.add(ModBlocks.MEAT_ORE);
+                entries.add(ModBlocks.DEEPSLATE_MEAT_ORE);
             }).build());
 
     public static void registerItemGroups() {

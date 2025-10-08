@@ -10,6 +10,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import pyroghy.ores.BadOres;
 import pyroghy.ores.block.custom.TeleportingBlock;
+import pyroghy.ores.block.custom.SpawnerBlock;
 
 public class ModBlocks {
     public static final Block ENDER_ORE = registerBlock("ender_ore",
@@ -17,6 +18,12 @@ public class ModBlocks {
 
     public static final Block DEEPSLATE_ENDER_ORE = registerBlock("deepslate_ender_ore",
             new TeleportingBlock(AbstractBlock.Settings.copy(Blocks.DEEPSLATE_DIAMOND_ORE)));
+
+    public static final Block MEAT_ORE = registerBlock("meat_ore",
+        new SpawnerBlock(AbstractBlock.Settings.copy(Blocks.IRON_ORE)));
+
+    public static final Block DEEPSLATE_MEAT_ORE = registerBlock("deepslate_meat_ore",
+        new SpawnerBlock(AbstractBlock.Settings.copy(Blocks.DEEPSLATE_IRON_ORE)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block, new Item.Settings());

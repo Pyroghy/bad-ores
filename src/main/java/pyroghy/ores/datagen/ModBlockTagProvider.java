@@ -17,11 +17,17 @@ public class ModBlockTagProvider extends BlockTagProvider {
     @Override
     protected void configure(WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
-                .add(ModBlocks.ENDER_ORE)
-                .add(ModBlocks.DEEPSLATE_ENDER_ORE);
+            .add(ModBlocks.ENDER_ORE)
+            .add(ModBlocks.DEEPSLATE_ENDER_ORE)
+            .add(ModBlocks.MEAT_ORE)
+            .add(ModBlocks.DEEPSLATE_MEAT_ORE);
+                
+        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+            .add(ModBlocks.MEAT_ORE)
+            .add(ModBlocks.DEEPSLATE_MEAT_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.ENDER_ORE)
-                .add(ModBlocks.DEEPSLATE_ENDER_ORE);
+            .add(ModBlocks.ENDER_ORE)
+            .add(ModBlocks.DEEPSLATE_ENDER_ORE);
     }
 }
