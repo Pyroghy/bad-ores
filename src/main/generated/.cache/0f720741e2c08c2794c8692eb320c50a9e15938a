@@ -1,13 +1,22 @@
-// 1.21.1	2025-10-08T18:33:25.8344111	Bad Ores/Model Definitions
-d5c8e4c09d57d6e82c1e02e96bc0ca25b3944e4c assets\ores\models\block\deepslate_ender_ore.json
-40057c940f56ff8ae06059a667da8a4e4e69507e assets\ores\models\item\deepslate_ender_ore.json
-26badde8ed059f361ad47f084dcc87b81c6142a8 assets\ores\models\block\meat_ore.json
-b84207cd2342d7791383dec791e97e5f455f9115 assets\ores\models\block\deepslate_meat_ore.json
-737f5efa3f35b0e203233a201b8c34d2672e7ff2 assets\ores\models\item\ender_ore.json
-bc527625fcb8f167fc08ede4d0adcd5ac76f455c assets\ores\models\item\meat_ore.json
-eef2e111743e08279d7c756e9e41d2967f10efe4 assets\ores\blockstates\deepslate_ender_ore.json
-226ee6c0fac942fa2d51f4d14254f12f74a9428d assets\ores\blockstates\ender_ore.json
-b79f664d2125430d2bb48b35172c570e3b22f489 assets\ores\blockstates\deepslate_meat_ore.json
-f0a373642efa6166ea21a642b4dc707ce9155b24 assets\ores\models\item\deepslate_meat_ore.json
+// 1.21.1	2026-01-12T13:38:38.2982778	Bad Ores/Model Definitions
 a10acb309586497904c644a1978eea4bdc26b01b assets\ores\models\block\ender_ore.json
+d5c8e4c09d57d6e82c1e02e96bc0ca25b3944e4c assets\ores\models\block\deepslate_ender_ore.json
+d46723338345e15b4b7c63b8353d2da1d1cdffbf assets\ores\models\item\deepslate_beef_ore.json
+82be1f98fe83e441ffc7edd656f9a8dc790eaa53 assets\ores\models\item\nether_netherite_ore.json
+40057c940f56ff8ae06059a667da8a4e4e69507e assets\ores\models\item\deepslate_ender_ore.json
+226ee6c0fac942fa2d51f4d14254f12f74a9428d assets\ores\blockstates\ender_ore.json
+737f5efa3f35b0e203233a201b8c34d2672e7ff2 assets\ores\models\item\ender_ore.json
+b84207cd2342d7791383dec791e97e5f455f9115 assets\ores\models\block\deepslate_meat_ore.json
+b79f664d2125430d2bb48b35172c570e3b22f489 assets\ores\blockstates\deepslate_meat_ore.json
+c51a32b9ae13839631842e57cf4ea24c94eb6f69 assets\ores\blockstates\nether_netherite_ore.json
+eef2e111743e08279d7c756e9e41d2967f10efe4 assets\ores\blockstates\deepslate_ender_ore.json
 2c26edda923bdd37285d2efecd2bbf3048d75598 assets\ores\blockstates\meat_ore.json
+b314e9ae6bfe401ead11edd8c8c31f8bc4fe85cf assets\ores\models\item\beef_ore.json
+26badde8ed059f361ad47f084dcc87b81c6142a8 assets\ores\models\block\meat_ore.json
+c5de5e9e1350377634e40fb8e6523927944a85b2 assets\ores\models\block\nether_netherite_ore.json
+613ce9f0bf6d4ea1e18d9430c6c289bdd75f30ed assets\ores\models\block\deepslate_beef_ore.json
+bc527625fcb8f167fc08ede4d0adcd5ac76f455c assets\ores\models\item\meat_ore.json
+aa5b10e62a0b9ff45fe621c7da66fe75e4869515 assets\ores\models\block\beef_ore.json
+f0a373642efa6166ea21a642b4dc707ce9155b24 assets\ores\models\item\deepslate_meat_ore.json
+969183b18c4701c6a89dcd3b12caf47096c33525 assets\ores\blockstates\beef_ore.json
+745d54e5e518cf6bd71fe6cee3342920d3a72796 assets\ores\blockstates\deepslate_beef_ore.json

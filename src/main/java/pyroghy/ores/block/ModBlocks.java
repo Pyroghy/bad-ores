@@ -9,8 +9,9 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import pyroghy.ores.BadOres;
-import pyroghy.ores.block.custom.TeleportingBlock;
+import pyroghy.ores.block.custom.OreBlock;
 import pyroghy.ores.block.custom.SpawnerBlock;
+import pyroghy.ores.block.custom.TeleportingBlock;
 
 public class ModBlocks {
     public static final Block ENDER_ORE = registerBlock("ender_ore",
@@ -24,6 +25,15 @@ public class ModBlocks {
 
     public static final Block DEEPSLATE_MEAT_ORE = registerBlock("deepslate_meat_ore",
         new SpawnerBlock(AbstractBlock.Settings.copy(Blocks.DEEPSLATE_IRON_ORE)));
+
+    public static final Block BEEF_ORE = registerBlock("beef_ore",
+        new OreBlock(AbstractBlock.Settings.copy(Blocks.IRON_ORE)));
+
+    public static final Block DEEPSLATE_BEEF_ORE = registerBlock("deepslate_beef_ore",
+        new OreBlock(AbstractBlock.Settings.copy(Blocks.DEEPSLATE_IRON_ORE)));
+
+    public static final Block NETHER_NETHERITE_ORE = registerBlock("nether_netherite_ore",
+        new OreBlock(AbstractBlock.Settings.copy(Blocks.ANCIENT_DEBRIS)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block, new Item.Settings());

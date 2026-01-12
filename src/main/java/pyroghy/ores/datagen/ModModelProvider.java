@@ -18,6 +18,9 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_ENDER_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MEAT_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_MEAT_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BEEF_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_BEEF_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHER_NETHERITE_ORE);
     }
 
     @Override

@@ -4,5 +4,8 @@
     "block.ores.ender_ore": "Ender Ore",
     "block.ores.deepslate_ender_ore": "Deepslate Ender Ore",
     "block.ores.meat_ore": "Meat Ore",
-    "block.ores.deepslate_meat_ore": "Deepslate Meat Ore"
+    "block.ores.deepslate_meat_ore": "Deepslate Meat Ore",
+    "block.ores.beef_ore": "Beef Ore",
+    "block.ores.deepslate_beef_ore": "Deepslate Beef Ore",
+    "block.ores.nether_netherite_ore": "Nether Netherite Ore"
 }

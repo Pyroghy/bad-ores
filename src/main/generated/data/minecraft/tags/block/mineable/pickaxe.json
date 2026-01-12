@@ -3,6 +3,9 @@
     "ores:ender_ore",
     "ores:deepslate_ender_ore",
     "ores:meat_ore",
-    "ores:deepslate_meat_ore"
+    "ores:deepslate_meat_ore",
+    "ores:beef_ore",
+    "ores:deepslate_beef_ore",
+    "ores:nether_netherite_ore"
   ]
 }
